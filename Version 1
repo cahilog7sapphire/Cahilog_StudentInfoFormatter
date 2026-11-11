@@ -1,0 +1,12 @@
+fname = str(input("Enter first name: "))
+lname = str(input("Enter family name: "))
+section = str(input("Enter section: "))
+favsub = str(input("Enter favorite subject: "))
+
+print("Formatted Output: ")
+print(f"Name: {fname} {lname}")
+print(f"Name Code: {fname} {lname}")
+print(f"Section: {section}")
+print(f"Favorite Subject: {favsub}")
+charlngth_favsub = len(favsub)
+print(f"Character Count: {charlngth_favsub}")
